@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#000000"> <!-- BLACK background -->
+
+  // POWER + INPUT
+    <Button
+        android:id="@+id/btn_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F44336" /> <!-- Red -->
+
+    <Button
+        android:id="@+id/btn_Input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F44336" />
+
+// NUMBER PAD
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="3"
+        android:layout_marginTop="16dp">
+
+    // Yellow Number Buttons
+        <Button android:id="@+id/btn_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+        <Button android:id="@+id/btn_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+        <Button android:id="@+id/btn_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+        <Button android:id="@+id/btn_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+        <Button android:id="@+id/btn_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+        <Button android:id="@+id/btn_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+        <Button android:id="@+id/btn_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+        <Button android:id="@+id/btn_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+        <Button android:id="@+id/btn_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+        <Button android:id="@+id/btn_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textColor="#000000" android:backgroundTint="#FFEB3B"/>
+    </GridLayout>
+
+  // Green Volume + Channel Buttons
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_volume_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Up"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50" /> <!-- Green -->
+
+        <Button
+            android:id="@+id/btn_volume_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Down"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50" /> <!-- Green -->
+    </LinearLayout>
+
+ // Channel Buttons
+    <Button
+        android:id="@+id/btn_channel_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Channel Up"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/btn_channel_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Channel Down"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50" />
+
+    // Streaming Buttons
+    <Button
+        android:id="@+id/btn_netflix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Netflix"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#B71C1C" />
+
+    <Button
+        android:id="@+id/btn_amazon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amazon Prime"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#B71C1C" />
+
+    <Button
+        android:id="@+id/btn_hbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HBO"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#B71C1C" />
+
+    <Button
+        android:id="@+id/btn_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YouTube"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#B71C1C" />
+
+    // Voice Command Button
+    <Button
+        android:id="@+id/btn_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice Command"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5" /> <!-- Indigo -->
+
+</LinearLayout>
